@@ -20,8 +20,10 @@ jobs:
 
   validate-javascript:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Check JavaScript syntax
         run: node --check dist/voltex-fan-remote-card.js
 
