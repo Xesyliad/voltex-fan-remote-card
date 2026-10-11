@@ -3,7 +3,7 @@
 An unofficial Home Assistant dashboard card matching the Voltex CFB
 five-speed ceiling fan remote without a light.
 
-![Voltex Fan Remote Card preview](images/card-preview.svg)
+![Voltex Fan Remote Card preview](images/voltex_fan_hass.png)
 
 Each position can be assigned to a stateless MQTT `button` entity discovered
 by the ESP32 CC1101 fan controller. The card includes ON, OFF, speeds 1–5,
